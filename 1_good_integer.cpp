@@ -15,16 +15,16 @@ string largestGoodInteger(string num) {
 
 
 int main() {
-    // Test 1: Chu?i có "888"
+    // Test 1: Chu?i cï¿½ "888"
     cout << "Test 1 (123888456): " << largestGoodInteger("123888456") << endl;
     
-    // Test 2: Chu?i có nhi?u b? 3 s?
+    // Test 2: Chu?i cï¿½ nhi?u b? 3 s?
     cout << "Test 2 (111222333): " << largestGoodInteger("111222333") << endl;
     
-    // Test 3: Không có b? 3 s? nào
+    // Test 3: Khï¿½ng cï¿½ b? 3 s? nï¿½o
     cout << "Test 3 (123456789): " << largestGoodInteger("123456789") << endl;
     
-    // Test 4: Chu?i toàn s? 9
+    // Test 4: Chu?i toï¿½n s? 9
     cout << "Test 4 (999000112): " << largestGoodInteger("999000112") << endl;
     
     return 0;
